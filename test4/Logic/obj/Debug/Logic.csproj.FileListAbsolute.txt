@@ -22,3 +22,11 @@ C:\Users\Andreas\Source\Repos\test4\Logic\obj\Debug\Logic.csprojResolveAssemblyR
 C:\Users\Andreas\Source\Repos\test4\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
 C:\Users\Andreas\Source\Repos\test4\Logic\obj\Debug\Logic.dll
 C:\Users\Andreas\Source\Repos\test4\Logic\obj\Debug\Logic.pdb
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\bin\Debug\Logic.dll
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\bin\Debug\Logic.pdb
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\bin\Debug\Data.dll
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\bin\Debug\Data.pdb
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\obj\Debug\Logic.dll
+C:\Users\Antie\source\repos\Testing1234\test4\Logic\obj\Debug\Logic.pdb

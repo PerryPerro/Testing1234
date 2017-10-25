@@ -15,7 +15,7 @@ namespace Data
             public string Url { get; set; }
             public string Category { get; set; }
             public double UpdateIntervall { get; set; }
-
+            KeyValuePair<string, string> titles = new KeyValuePair<string, string>();
             public Pod() { }
 
             public Pod(string url = "hej",
@@ -41,6 +41,7 @@ namespace Data
                 Url = (string)info.GetValue("Url", typeof(string));
                 Category = (string)info.GetValue("Category", typeof(string));
                 UpdateIntervall = (double)info.GetValue("UpdateIntervall", typeof(double));
+
             }
         }
         }

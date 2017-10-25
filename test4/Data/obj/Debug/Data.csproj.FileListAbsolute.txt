@@ -16,3 +16,9 @@ C:\Users\Andreas\Source\Repos\test4\Data\obj\Debug\Data.csprojResolveAssemblyRef
 C:\Users\Andreas\Source\Repos\test4\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
 C:\Users\Andreas\Source\Repos\test4\Data\obj\Debug\Data.dll
 C:\Users\Andreas\Source\Repos\test4\Data\obj\Debug\Data.pdb
+C:\Users\Antie\source\repos\Testing1234\test4\Data\bin\Debug\Data.dll
+C:\Users\Antie\source\repos\Testing1234\test4\Data\bin\Debug\Data.pdb
+C:\Users\Antie\source\repos\Testing1234\test4\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Antie\source\repos\Testing1234\test4\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Antie\source\repos\Testing1234\test4\Data\obj\Debug\Data.dll
+C:\Users\Antie\source\repos\Testing1234\test4\Data\obj\Debug\Data.pdb

@@ -65,13 +65,12 @@ namespace WindowsFormsApp1
             new GenereradLista();
 
             var ListItems = GenereradLista.SkapaNyttXml(textBox1.Text);
-         addPods.addList(textBox1.Text, textBox3.Text, int.Parse(textBox4.Text));
+            addPods.addList(textBox1.Text, textBox3.Text, int.Parse(textBox4.Text));
             foreach(string item in ListItems) { 
                 Pods.Add(item);
                 listBox1.Text = item;
             }
-
-
+            
             //if (listBox1.Items.ToString() != textBox3.Text)
             //{
             //    listBox1.Items.Add(textBox3.Text);
@@ -130,7 +129,26 @@ namespace WindowsFormsApp1
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            //new addPods();
+            //List<String> listMedTitlar = new List<String>();
+            //var xmlLista = addPods.VisaXmlLista();
+            //for(int i = 0; i < xmlLista.Count(); i++)
+            //{
+            //    listMedTitlar.Add(xmlLista.ElementAt(i));
+            //}
+            //var ListItems = GenereradLista.SkapaNyttXml(textBox1.Text);
+            //for
+            new GenereradLista();
+            var ListItems = GenereradLista.SkapaNyttXml(listBox1.SelectedItem.ToString());
+            listBox2.Items.Clear();
+            //new fillBoxes();
+            //var lista = fillBoxes.fyllComboBoxMedUrl();
+            for (int i = 0; i < ListItems.Count; i++)
+            {
+                listBox2.Items.Add(ListItems.ElementAt(i));
+            }
+         
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -178,22 +196,25 @@ namespace WindowsFormsApp1
         private void button5_Click(object sender, EventArgs e)
         {
             // FIXA GENERATE LIST HÄR
+            new GenereradLista();
+            var listItems = GenereradLista.SkapaNyttXmlUrl(listBox1.SelectedItem.ToString());
+
+            //var listTitlar = GenereradLista.SkapaNyttXml();
+            var TitelAttHitta = listBox2.SelectedItem.ToString();
+
+
             var filePath = "";
-            dom.LoadXml(xml);
-            foreach (System.Xml.XmlNode item
-               in dom.DocumentElement.SelectNodes("channel/item"))
+            for(int i =0; i < listItems.Count(); i++)
             {
-                if (item.SelectSingleNode("title").InnerText == listBox2.SelectedItem.ToString())
+                var test = listItems.ElementAt(i);
+                if (test == listBox2.SelectedItem.ToString())
                 {
-                    
-                    filePath = item.SelectSingleNode("enclosure/@url").InnerText;
+
+                    filePath = listItems.ElementAt(i);
                    
                    Process.Start("rundll32.exe", "shell32.dll, OpenAs_RunDLL " + filePath);
                 }
-
-            
-          
-        }
+            }
            
         }
 

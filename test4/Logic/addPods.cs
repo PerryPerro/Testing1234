@@ -46,8 +46,7 @@ namespace Logic
             {
                 XmlSerializer serializer = new XmlSerializer(typeof
                         (List<Pod>));
-                serializer.Serialize(fs, allaPoddar);
-
+                serializer.Serialize(fs, allaPoddar);                
             }
           
         }

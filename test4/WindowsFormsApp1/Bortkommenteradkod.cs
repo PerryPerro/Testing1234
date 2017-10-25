@@ -145,23 +145,6 @@ namespace WindowsFormsApp1
 
 
         // LISTBOX1 event handler
-        //new addPods();
-        //List<String> listMedTitlar = new List<String>();
-        //var xmlLista = addPods.VisaXmlLista();
-        //for(int i = 0; i < xmlLista.Count(); i++)
-        //{
-        //    listMedTitlar.Add(xmlLista.ElementAt(i));
-        //}
-        //var ListItems = GenereradLista.SkapaNyttXml(textBox1.Text);
-        //for 
-        //listBox2.Items.Clear();
-        //new fillBoxes();
-        //    var lista = fillBoxes.fyllComboBoxMedUrl();
-        //    for (int i = 0; i < lista.Count; i++)
-        //    {
-        //        listBox2.Items.Add(lista.ElementAt(i));
-        //    }
-        //new GenereradLista();
-        //var ListItems = GenereradLista.SkapaNyttXml(textBox1.Text);
+      //  s
     }
 }
